@@ -1,0 +1,101 @@
+
+body{
+  background-color: #010303;
+  color: white;
+}
+
+#diag-overlay {
+  display: none;
+  opacity: .5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  width: 100%;
+  z-index: 10;
+
+}
+
+#diag-box {
+  display: none;
+  position: fixed;
+  background: #000;
+  border-radius: 7px;
+  z-index: 10;
+}
+
+#diag-box > div {
+  background-color: #FFF;
+}
+
+#diag-box-head {
+  background-color: #CFD2D7;
+  font-size: 20px;
+  padding: 10px;
+  color: #CCC;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#diag-box-body {
+  padding: 28px;
+  color: white;
+  height: 80px;
+  font-size: 17px;
+  text-align: center;
+}
+
+#diag-box-foot {
+  background-color: #D3D5D7;
+  padding: 10px;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+h1 {
+
+  font-size: 50px;
+}
+
+#buttons{
+  margin-bottom: 40px;
+
+}
+
+.butt{
+  width: 130px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+
+th{
+  text-align: center;
+  width: 190px;
+  height: 190px;/* By Ian Agpawa */
+  font-size: 60px;
+}
+
+
+table, th, td {
+  border: 5px solid white;
+  border-collapse: collapse;
+}
+
+.display{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#overall {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
