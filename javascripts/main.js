@@ -280,11 +280,13 @@ function startPage(){
   
   function alertBox() {
     this.render = function(msg) {
+      var winW = ($(window).width()).toString();
       var winH = ($(window).height()).toString();
       var diagOverlay = $("#diag-overlay");
       var diagBox = $("#diag-box");
       diagOverlay.css("display", "block");
       diagOverlay.css("height", winH + "px");
+      diagBox.css("margin-left", ((winW/2) - (500 * 0.5)).toString() +"px");
       diagBox.css("margin-top", "150px");
       diagBox.css('display', "block");
       $("#diag-box-head").text("GAME OVER");
