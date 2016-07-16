@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Stardos+Stencil);
 
 body{
   background-color: #010303;
@@ -22,6 +23,11 @@ body{
   background: #000;
   border-radius: 7px;
   z-index: 10;
+  width: 425px;
+  border: 25px solid black;
+  border-top: none;
+  border-bottom: none;
+
 }
 
 #diag-box > div {
@@ -41,8 +47,8 @@ body{
 #diag-box-body {
   padding: 28px;
   color: white;
-  height: 80px;
-  font-size: 17px;
+  height: 35px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -57,8 +63,9 @@ body{
 
 
 h1 {
-
-  font-size: 50px;
+  margin-top: 50px;
+  font-size: 60px;
+  margin-bottom: 5px;
 }
 
 #buttons{
@@ -79,23 +86,24 @@ th{
   text-align: center;
   width: 190px;
   height: 190px;/* By Ian Agpawa */
-  font-size: 60px;
+  font-size: 80px;
 }
 
 
 table, th, td {
+  font-family: 'Stardos Stencil', cursive;
   border: 5px solid white;
   border-collapse: collapse;
 }
 
 .display{
   font-size: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
 #overall {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 150px;
 }
